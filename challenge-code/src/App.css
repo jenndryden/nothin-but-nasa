@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #004AAD;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 1rem;
+  margin: 10px;
+  padding-bottom: 40px;
+}
+
+.spinner {
+  height: 80px;
+  margin: auto;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+/* new css for movie component */
+
+* {
+  box-sizing: border-box;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.App-header h2 {
+  margin: 0;
+}
+
+.add-movies {
+  text-align: center;
+}
+
+.add-movies button {
+  font-size: 16px;
+  padding: 8px;
+  margin: 0 10px 30px 10px;
+}
+
+.errorMessage {
+  margin: auto;
+  font-weight: bold;
+  color: rgb(161, 15, 15);
+}
+
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 10px;
+}
+input{ 
+width: 100%;
+padding: 10px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 1px solid grey;
+border-radius: 0.5rem;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  width: 80px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+  background-color: #282c34;
+  color: antiquewhite;
+}
+.moviecard {
+  width: 230px;
+  padding: 2px 2px 2px 2px;
+  height: 170px;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgb(219, 218, 218);
+border-radius: 0.5rem;
+box-shadow: 3px 3x 5px 3px #c9c7c7;
+margin:10px;
+}
+
+.movietext {
+  width: 50%;
+  float:right;
+  margin: auto;
+  padding:auto;
+}
+
+.movieimagecard {
+  float: left;
+  padding: 5px 5px 5px 5px;
+  float: center;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}
+
+
+.allNASA {
+  display: inline-block;
+  width: 55%;
+}
+
+.search > input[type="text"]{
+  width: 40%;
+  min-width: 170px;
+  display: inline-block;
+}
+
+@media screen and (min-width: 694px) and (max-width: 915px) {
+  .movie {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 652px) and (max-width: 693px) {
+  .movie {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 651px) {
+  .movie {
+    max-width: 100%;
+    margin: auto;
+  }
+}
+
+.logo {
+  width: 40%;
+  height: auto;
+}
+
+h3, h4 {
+  font-family: 'Hammersmith One', sans-serif;
+  padding-top: 3%;
+}
+
+.nominatedNASA {
+  width: 35%;
+  float: right;
+  display:inline-block;
+  background-color: lightgrey;
+  margin: 2rem;
+  height: 1050px;
+  padding: 3rem;
+  border-radius: 1rem;
+}
+
+.searchbutton {
+  background-color: grey;
+  height:40px;
+  width: 100px;
+  border-radius: 0.5rem;
+  border-style: none;
+  font-family: 'Hammersmith One', sans-serif;
+  color: white;
+  font-size: medium;
+}
+
+.searchbutton:hover {
+  background-color: #008060; /* Green */
+  color: white;
+}
