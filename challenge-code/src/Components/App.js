@@ -120,7 +120,7 @@ const App = (
       {nominations_count === 5 ? (
         //banner that is displayed when there is already 5 NASA
     <Banner 
-    title="You have already added 5 NASA Photos"
+    title="you have already added 5 NASA Photos"
     status="critical"
   >
     <p>
@@ -134,14 +134,14 @@ const App = (
   )}
   {nominations_count>0 && nominations_count!==5 ? (
     <Banner
-    title="Your have added a nasa nomination"
+    title="you have loved a nasa photo!"
     status="success"
   />
   ) :
   null}
       <div className="allNASA">
         <br></br>
-      <h4 className="App-intro">NASA to nominate</h4>
+      <h4 className="App-intro">nasa photos to love</h4>
       <br></br>
       <div className="NASA">
         {loading && !errorMessage ? (
@@ -158,7 +158,7 @@ const App = (
 </div>
     </div>
     <div className="nominatedNASA">
-    <h4 className="App-intro">nominated NASA photos</h4> 
+    <h4 className="App-intro">nasa photos you 🖤</h4> 
     <div className="NASA">
         {(loading && !errorMessage) ? (
           <span>loading... </span>

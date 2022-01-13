@@ -9,7 +9,7 @@ const NoLovedPhotos = ({available}) => {
 	return (
 		<>
 			<Banner showBanner={noNominationsLeft}
-  title="You have already added 5 movies"
+  title="You have already added 5 NASA photos"
   action={{content: 'Review risk analysis'}}
   status="critical"
 >
