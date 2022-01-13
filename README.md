@@ -4,8 +4,8 @@
 [![Issues][issues-shield]][issues-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# the_shoppies
-Shopify Fall 2021 Frontend Developer Intern Challenge
+# nothin-but-nasa
+Shopify Summer 2022 Frontend Developer Intern Challenge - Jennifer Dryden
 
 ![Image of The Nothin' But Nasa Banner](https://i.postimg.cc/pTrsbFnd/Screen-Shot-2022-01-13-at-1-35-48-PM.png)
 
